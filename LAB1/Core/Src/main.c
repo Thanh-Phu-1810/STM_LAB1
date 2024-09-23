@@ -22,6 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "exercise1.h"
 
 /* USER CODE END Includes */
 
@@ -94,6 +95,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+	  EXERCISE1_Run();
+	  HAL_Delay(2000);
 
     /* USER CODE BEGIN 3 */
   }
