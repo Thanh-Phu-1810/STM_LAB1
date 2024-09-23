@@ -22,6 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "exercise4.h"
 
 /* USER CODE END Includes */
 
@@ -91,9 +92,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  int b = 0;
   while (1)
   {
     /* USER CODE END WHILE */
+	  if(b >= 10) b = 0;
+	  EXERCISE4_Run(b++);
+	  HAL_Delay(1000);
 
     /* USER CODE BEGIN 3 */
   }
