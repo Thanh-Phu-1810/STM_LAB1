@@ -11,6 +11,7 @@
 void EXERCISE10_Run();
 void setnumberOnClock(int num);
 void resetNumberOnClock(int num);
+void setTimer(int hour, int minute, int second);
 extern int hour;
 extern int minute;
 extern int second;

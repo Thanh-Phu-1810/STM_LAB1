@@ -5,7 +5,7 @@
  *      Author: Thanh Phu
  */
 #include "exercise10.h"
-int hour = 0;
+int hour = 0;    /*SetTimer bằng cách thay đổi cá giá trị biến của hour, minutr, second thành thời gian mà mình muốn set*/
 int minute = 0;
 int second = 0;
 int counter = 0;
@@ -14,7 +14,7 @@ int blink_state = 0;
 
 void EXERCISE10_Run()
 {
-	 counter+=1;
+	   counter+=1;
 	   blink_counter+=1;
 	   if(counter >= 5)
 	   {
